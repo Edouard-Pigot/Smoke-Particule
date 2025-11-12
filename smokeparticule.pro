@@ -4,7 +4,8 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui opengl openglwidgets
+LIBS += -lopengl32
 
 CONFIG += c++14
 

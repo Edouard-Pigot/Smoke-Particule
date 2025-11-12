@@ -324,7 +324,7 @@ void GLArea::mouseMoveEvent(QMouseEvent *ev)
         xPos += dx/10.0f;
         yPos -= dy/10.0f;
         update();
-    } else if (ev->buttons() & Qt::MidButton) {
+    } else if (ev->buttons() & Qt::MiddleButton) {
         xPos += dx/10.0f;
         zPos += dy;
         update();
